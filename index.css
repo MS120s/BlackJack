@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: goldenrod;
+    font-size: 3rem;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: radial-gradient(rgb(13, 70, 17), rgb(3, 41, 9));
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 100vh;
+    line-height: 47px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    background-color: goldenrod;
+    border: none;
+    border-radius: 5px;
+    color: #016f32;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    /* height: 43px; */
+    margin: 20px 0 0px;
+    outline: none;
+    padding: 13px 6px;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+    width: 36%;
+}
+
+button:hover{
+    box-shadow: inset 0px 0px 10px 1px lightblue;
+}
+
+button:active{
+    transform: scale(0.95);
+    cursor: pointer;
+}
+
+#player-el{
+    margin-top: 40px;
+}
+
+
+@media (min-width: 768px){
+    h1{
+        color: goldenrod;
+        font-size: 3rem;
+        padding: 20px;
+        margin-top: 120px;
+    }
+    
+    body{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background: radial-gradient(rgb(13, 70, 17), rgb(3, 41, 9));
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        height: 100vh;
+        line-height: 47px;
+        padding: 10px;
+        text-align: center;
+        text-shadow: 2px 2px 1px black;
+    
+    }
+    
+    #message-el{
+        font-style: italic;
+    }
+    
+    button{
+        background-color: goldenrod;
+        border: none;
+        border-radius: 5px;
+        color: #016f32;
+        font-family: sans-serif;
+        font-size: 1.3rem;
+        font-weight: bold;
+        /* height: 43px; */
+        margin: 20px 0 0px;
+        outline: none;
+        padding: 13px 0px;
+        text-transform: uppercase;
+        transition: 0.4s ease;
+        width: 36%;
+    }
+    
+    button:hover{
+        box-shadow: inset 0px 0px 10px 1px lightblue;
+    }
+    
+    button:active{
+        transform: scale(0.95);
+        cursor: pointer;
+    }
+    
+    #player-el{
+        margin-top: 40px;
+    }
+    
+}
